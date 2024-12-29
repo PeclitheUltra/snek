@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{456c5281-f03b-417e-b741-9a3034754072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameplay">
+      <UniqueIdentifier>{5912aec0-76c9-4cc4-b8c4-425f3c4f80b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rendering">
+      <UniqueIdentifier>{4735524e-6c05-4a5c-8e40-cdabba75c6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\obj_loader">
+      <UniqueIdentifier>{cf0d1c39-af5c-42cc-91d6-eec17c6062eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameplay\snake.cpp">
+      <Filter>Source Files\gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\renderer.cpp">
+      <Filter>Source Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameplay\field.cpp">
+      <Filter>Source Files\gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameplay\field.h">
+      <Filter>Source Files\gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\obj_loader\fast_obj.c">
+      <Filter>Source Files\obj_loader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\TextReader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\renderer.h">
+      <Filter>Source Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameplay\snake.h">
+      <Filter>Source Files\gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\obj_loader\fast_obj.h">
+      <Filter>Source Files\obj_loader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\vertex.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="shaders\fragment.glsl">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="vcpkg.json">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
