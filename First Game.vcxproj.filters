@@ -48,6 +48,15 @@
     <ClCompile Include="src\obj_loader\fast_obj.c">
       <Filter>Source Files\obj_loader</Filter>
     </ClCompile>
+    <ClCompile Include="src\rendering\shader.h">
+      <Filter>Source Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\shader.cpp">
+      <Filter>Source Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendering\mesh.cpp">
+      <Filter>Source Files\rendering</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\TextReader.h">
@@ -61,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="src\obj_loader\fast_obj.h">
       <Filter>Source Files\obj_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rendering\mesh.h">
+      <Filter>Source Files\rendering</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

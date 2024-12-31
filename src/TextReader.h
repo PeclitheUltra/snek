@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include <vector>
 
 const char* get_text(const std::string& path)
 {

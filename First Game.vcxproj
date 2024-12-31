@@ -25,11 +25,15 @@
     <ClCompile Include="src\gl.c" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\obj_loader\fast_obj.c" />
+    <ClCompile Include="src\rendering\mesh.cpp" />
     <ClCompile Include="src\rendering\renderer.cpp" />
+    <ClCompile Include="src\rendering\shader.cpp" />
+    <ClCompile Include="src\rendering\shader.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\gameplay\snake.h" />
     <ClInclude Include="src\obj_loader\fast_obj.h" />
+    <ClInclude Include="src\rendering\mesh.h" />
     <ClInclude Include="src\rendering\renderer.h" />
     <ClInclude Include="src\TextReader.h" />
   </ItemGroup>
